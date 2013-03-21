@@ -29,14 +29,14 @@
 	<div class="container">
 		<form action="index.php" method="POST">
 			<div class="row">
-				<label>Wyszukaj słowa:</label>
+				<label>Wyszukaj słowo:</label>
 				<input type="text" name="word" value=<?php echo"\"$word\"";?> />
 			</div>
 			<div class="row">
-				<label>Wyszukuj w:</label>
+				<label>Przeszukuj:</label>
 				<select name="searchIn">
-					<option value="title" <?php if($searchIn == 'title') echo 'selected'; ?>>Tytule</option>
-					<option value="description" <?php if($searchIn == 'description') echo 'selected'; ?>>Opisie</option>
+					<option value="title" <?php if($searchIn == 'title') echo 'selected'; ?>>Tytuł</option>
+					<option value="description" <?php if($searchIn == 'description') echo 'selected'; ?>>Opis</option>
 				</select>
 			</div>
 			<div class="row">
