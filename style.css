@@ -1,0 +1,43 @@
+.container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+div.row {
+	margin: 10px;
+	width: 250px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 40px;
+	border-bottom: solid 1px #e3e3e3;
+}
+
+article {
+	border-bottom: double 3px #e3e3e3;
+}
+
+	h3.error {
+		color: red;
+		text-align: center;
+	}
+
+	div.title {
+		text-align: center;
+	}
+
+	.mark {
+		font-weight: bold;
+		font-size: 110%;
+		text-decoration: underline;
+		color: red;
+	}
+
+	span.bold {
+		font-weight: bold;
+	}
